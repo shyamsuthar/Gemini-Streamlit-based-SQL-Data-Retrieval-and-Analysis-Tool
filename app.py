@@ -72,9 +72,9 @@ def main():
     st.set_page_config(page_title="Retrieve Any SQL Query")
     st.header("Gemini App To Retrieve SQL Data")
 
-    server = '172.31.14.154'  
-    username = 'sa'
-    password = 'KDataScience@7861'
+    server = 'your server' 
+    username = 'username'
+    password = 'password'
 
     engine, connection_error = get_engine(server, 'master', username, password)
     if engine is None:
